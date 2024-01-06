@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const playButton = document.getElementById('playButton');
-    const audioElement = new Audio('happy_birthday_song.mp3'); // Replace with the actual song file
+    const audioElement = new Audio('happy_birthday_song.mp3'); 
 
     playButton.addEventListener('click', function () {
         audioElement.play();
